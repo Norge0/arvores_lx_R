@@ -6,7 +6,9 @@ Unidade Curricular - Geocomputação 2020/21 do Mestrado SIGMTAO do IGOT-UL<p></
 
 <h4>Code in R</h4><p></p>
 
-##Instalar e carregar biblioteca para dados espaciais
+####Code in R
+
+#Instalar e carregar biblioteca para dados espaciais
 ```
 install.packages("raster")
 library(raster)
@@ -14,12 +16,12 @@ install.packages("rgdal")
 library(rgdal
 ```
 
-##Definir pasta de trabalho
+#Definir pasta de trabalho
 ```
 setwd("G:/data5")
 ```
 
-#### Importar shapefiles
+#Importar shapefiles
 ```
 concelhos = shapefile("concelhos.shp")
 arvores_lisboa= shapefile("Arvoredo.shp")
