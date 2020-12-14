@@ -5,10 +5,12 @@ Unidade Curricular - Geocomputação 2020/21 do Mestrado SIGMTAO do IGOT-UL<p></
 <img src="trees_r.png" alt="image" width="" height="300">
 
 <h4>Code in R</h4><p></p>
-<h6 style="font-family:courier;">
+
+<p style="font-family:courier;">
 # -----------
 # Aula Prática
 # -----------
+</p>
 
 #Carregar biblioteca para dados espaciais
 install.packages("raster")  #caso não esteja instalado o packages
