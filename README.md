@@ -37,7 +37,7 @@ summary(concelhos)
 summary(arvores_lisboa)
 ```
 
-#Selecionar apenas choupos 'Populus alba' e 'Populus nigra’
-#Identificar valores únicos do campo espécie (ESPECIE_VA que é a coluna4 [,4])
+#Selecionar apenas choupos 'Populus alba' e 'Populus nigra’<p></p>
+#Identificar valores únicos do campo espécie (ESPECIE_VA que é a coluna4 [,4])<p></p>
 `unique(arvores_lisboa$ESPECIE_VA)`
 
