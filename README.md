@@ -19,17 +19,17 @@ library(rgdal
 `setwd("G:/data5")`
 
 #Importar shapefiles
-```
-concelhos = shapefile("concelhos.shp")
-arvores_lisboa= shapefile("Arvoredo.shp")
-```
+
+`concelhos = shapefile("concelhos.shp")`
+`arvores_lisboa= shapefile("Arvoredo.shp")`
+
 
 #Ver os dados
 ```
 plot(concelhos)
 plot(arvores_lisboa)
 ```
-#inspecionar campos
+#Inspecionar campos
 ```
 summary(concelhos)
 summary(arvores_lisboa)
@@ -43,11 +43,11 @@ summary(arvores_lisboa)
 [5] "Populus nigra"  <br>
 [30] "Populus alba"
 
-#selecionar apenas('Populus alba' e 'Populus nigra’)<br>
+#Selecionar apenas('Populus alba' e 'Populus nigra’)<br>
 `choupos_lisboa = subset(arvores_lisboa, ESPECIE_VA
 == "Populus alba" | ESPECIE_VA == "Populus nigra")`
 
-<p></p>
-`plot(choupos_lisboa)` para visualizar o resultado
+#Para visualizar o resultado
+`plot(choupos_lisboa)` 
 
 ...
