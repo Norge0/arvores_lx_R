@@ -15,10 +15,8 @@ install.packages("rgdal")
 library(rgdal
 ```
 
-#Definir pasta de trabalho
-```
-setwd("G:/data5")
-```
+#Definir pasta de trabalho<br>
+`setwd("G:/data5")`
 
 #Importar shapefiles
 ```
@@ -37,7 +35,7 @@ summary(concelhos)
 summary(arvores_lisboa)
 ```
 
-#Selecionar apenas choupos 'Populus alba' e 'Populus nigra’<p></p>
+#Selecionar apenas choupos 'Populus alba' e 'Populus nigra’<br>
 #Identificar valores únicos do campo espécie (ESPECIE_VA que é a coluna4 [,4])<p></p>
 `unique(arvores_lisboa$ESPECIE_VA)`
 
