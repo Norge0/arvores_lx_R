@@ -5,7 +5,7 @@ Unidade Curricular - Geocomputação 2020/21 do Mestrado SIGMTAO do IGOT-UL<p></
 <img src="trees_r.png" alt="image" width="" height="300">
 
 <h4>Code in R</h4><p></p>
-<h1>
+<h1 style="font-family:courier;">
 # -----------
 # Aula Prática
 # -----------
