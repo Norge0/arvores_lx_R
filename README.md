@@ -5,7 +5,7 @@ Unidade Curricular - Geocomputação 2020/21 do Mestrado SIGMTAO do IGOT-UL<p></
 <img src="trees_r.png" alt="image" width="" height="300">
 
 <h4>Code in R</h4><p></p>
-
+<h1>
 # -----------
 # Aula Prática
 # -----------
@@ -130,4 +130,4 @@ Meu_mapa_interativo = a+b
 #salvar em html 
 mapshot(Meu_mapa_interativo, selfcontained = FALSE, url = "G:/data5/exports/map.html")
 
-#-----------------
+#-----------------</h1>
