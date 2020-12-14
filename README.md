@@ -19,15 +19,15 @@ library(rgdal
 `setwd("G:/data5")`
 
 #Importar shapefiles<br>
-`concelhos = shapefile("concelhos.shp")`
+`concelhos = shapefile("concelhos.shp")`<br>
 `arvores_lisboa= shapefile("Arvoredo.shp")`
 
 #Ver os dados<br>
-`plot(concelhos)`
+`plot(concelhos)`<br>
 `plot(arvores_lisboa)`
 
 #Inspecionar campos<br>
-`summary(concelhos)`
+`summary(concelhos)`<br>
 `summary(arvores_lisboa)`
 
 #Selecionar apenas choupos 'Populus alba' e 'Populus nigra’<br>
