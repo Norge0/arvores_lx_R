@@ -36,6 +36,17 @@ summary(arvores_lisboa)
 ```
 
 #Selecionar apenas choupos 'Populus alba' e 'Populus nigra’<br>
-#Identificar valores únicos do campo espécie (ESPECIE_VA que é a coluna4 [,4])<p></p>
+#Identificar valores únicos do campo espécie (ESPECIE_VA que é a coluna4 [,4])<br>
 `unique(arvores_lisboa$ESPECIE_VA)`
 
+#São as linhas 5 e 50 na tabela<br>
+[5] "Populus nigra"  <br>
+[30] "Populus alba"
+
+#selecionar apenas('Populus alba' e 'Populus nigra’)<br>
+`choupos_lisboa = subset(arvores_lisboa, ESPECIE_VA
+== "Populus alba" | ESPECIE_VA == "Populus nigra")`
+<br>
+`plot(choupos_lisboa)`
+
+...
