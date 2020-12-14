@@ -4,7 +4,6 @@ Aula prática de programação em R<br>
 Unidade Curricular - Geocomputação 2020/21 do Mestrado SIGMTAO do IGOT-UL<p></p>
 <img src="trees_r.png" alt="image" width="" height="300">
 
-<h4>Code in R</h4><p></p>
 
 #### Code in R
 
@@ -26,3 +25,19 @@ setwd("G:/data5")
 concelhos = shapefile("concelhos.shp")
 arvores_lisboa= shapefile("Arvoredo.shp")
 ```
+
+#Ver os dados
+```
+plot(concelhos)
+plot(arvores_lisboa)
+```
+#inspecionar campos
+```
+summary(concelhos)
+summary(arvores_lisboa)
+```
+
+#Selecionar apenas choupos 'Populus alba' e 'Populus nigra’
+#Identificar valores únicos do campo espécie (ESPECIE_VA que é a coluna4 [,4] )
+unique(arvores_lisboa$ESPECIE_VA)
+
