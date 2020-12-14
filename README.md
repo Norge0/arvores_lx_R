@@ -18,22 +18,17 @@ library(rgdal
 #Definir pasta de trabalho<br>
 `setwd("G:/data5")`
 
-#Importar shapefiles
-
+#Importar shapefiles<br>
 `concelhos = shapefile("concelhos.shp")`
 `arvores_lisboa= shapefile("Arvoredo.shp")`
 
+#Ver os dados<br>
+`plot(concelhos)`
+`plot(arvores_lisboa)`
 
-#Ver os dados
-```
-plot(concelhos)
-plot(arvores_lisboa)
-```
-#Inspecionar campos
-```
-summary(concelhos)
-summary(arvores_lisboa)
-```
+#Inspecionar campos<br>
+`summary(concelhos)`
+`summary(arvores_lisboa)`
 
 #Selecionar apenas choupos 'Populus alba' e 'Populus nigra’<br>
 #Identificar valores únicos do campo espécie (ESPECIE_VA que é a coluna4 [,4])<br>
@@ -47,7 +42,7 @@ summary(arvores_lisboa)
 `choupos_lisboa = subset(arvores_lisboa, ESPECIE_VA
 == "Populus alba" | ESPECIE_VA == "Populus nigra")`
 
-#Para visualizar o resultado
+#Para visualizar o resultado<br>
 `plot(choupos_lisboa)` 
 
 ...
