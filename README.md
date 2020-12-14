@@ -38,6 +38,6 @@ summary(arvores_lisboa)
 ```
 
 #Selecionar apenas choupos 'Populus alba' e 'Populus nigra’
-#Identificar valores únicos do campo espécie (ESPECIE_VA que é a coluna4 [,4] )
-unique(arvores_lisboa$ESPECIE_VA)
+#Identificar valores únicos do campo espécie (ESPECIE_VA que é a coluna4 [,4])
+`unique(arvores_lisboa$ESPECIE_VA)`
 
