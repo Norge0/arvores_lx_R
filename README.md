@@ -46,7 +46,8 @@ summary(arvores_lisboa)
 #selecionar apenas('Populus alba' e 'Populus nigra’)<br>
 `choupos_lisboa = subset(arvores_lisboa, ESPECIE_VA
 == "Populus alba" | ESPECIE_VA == "Populus nigra")`
-<br>
-`plot(choupos_lisboa)`
+
+<p></p>
+`plot(choupos_lisboa)` para visualizar o resultado
 
 ...
