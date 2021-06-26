@@ -34,7 +34,7 @@ library(rgdal
 #Identificar valores únicos do campo espécie (ESPECIE_VA que é a coluna4 [,4])<br>
 `unique(arvores_lisboa$ESPECIE_VA)`
 
-#São as linhas 5 e 50 na tabela<br>
+#São as linhas 5 e 30 na tabela<br>
 [5] "Populus nigra"  <br>
 [30] "Populus alba"
 
